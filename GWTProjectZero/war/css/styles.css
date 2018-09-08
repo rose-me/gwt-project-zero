@@ -1,0 +1,327 @@
+#idtopbar {
+	background-color: #3B5998;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 40px;
+	left: 0;
+	min-width: 1024px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 110;
+}
+
+#idlblperson {
+	position: absolute;
+	width: 10%;
+	min-width: 30px;
+	top: 6px;
+	right: 50px;
+	color: #FFFFFF;
+	font-size: small;
+    font-weight: bold;
+    padding: 6px;
+}
+
+#idlbltitle {
+	position: fixed;
+	width: 30%;
+	min-width: 50px;	
+	top: 6px;
+	left: 50px;
+	color: #FFFFFF;
+	font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+/**********  		table styles  ************           */
+/* for tables grid */
+.tablesorter {
+	font-family:arial;
+	margin:10px 0pt 15px;
+	width:100%;
+	text-align: left;
+	border-collapse: collapse;
+	border-bottom: 1px solid black;
+}
+
+.tablesorter thead tr th, .tablesorter tfoot tr th {
+	/* background-color: #9EBEDF;*/
+	/*border: 1px solid black;*/
+	padding-left : 3px;
+	height: 20px;
+	padding-left : 3px;
+	height: 10px; 
+	background-color: #446CB3;
+	font: Tahoma;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.tablesorter tbody tr {
+	border-left: 1px solid black;	
+}
+
+.tablesorter tbody td {
+	color: #3D3D3D;
+	background-color: #F2F2F2;
+	vertical-align: top;
+	font-size: 9pt;
+	padding-left : 0px;
+	margin-left : 3px;
+	word-wrap:break-word;
+	height: 25px;
+	border-right: 1px solid black;
+
+}
+
+.tablesorter tbody tr.odd td {
+	background-color:#FFF;
+}
+.tablesorter tbody tr:nth-child(2n) td {
+	background-color:#FFF;
+}
+
+/* for tables new form */
+.tableActivityFrmSorter {
+	font-family:arial;
+	margin:10px 0pt 15px;
+	width:100%;
+	text-align: left;
+}
+
+.tableActivityFrmSorter thead tr th, .tableActivityFrmSorter tfoot tr th {	
+	padding-left : 3px;
+	height: 20px;
+	padding-left : 3px;
+	height: 10px; 
+	background-color: #446CB3;
+	font: Tahoma;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;	
+}
+
+.tableActivityFrmSorter tbody td {
+	color: #3D3D3D;
+	background-color: #F2F2F2;
+	vertical-align: top;
+	font-size: 9pt;
+	padding-left : 0px;
+	margin-left : 3px;
+	word-wrap:break-word;
+	height: 25px;
+
+}
+
+.tableActivityFrmSorter tbody tr.odd td {
+	background-color:#FFF;
+}
+.tableActivityFrmSorter tbody tr:nth-child(2n) td {
+	background-color:#FFF;
+}
+
+/* .tablesorter tbody tr: last-child td {
+	border-left: 0;
+	border-right: 0;
+} */
+
+/**********   		table styles   *************          */
+
+
+/**********   		popup styles   *************          */
+.popup {
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	margin-left: 125px;	
+}
+
+.popup-title {
+	margin: 0;
+	color: rgb(255, 255, 255);
+	padding: 3px 0px 3px 3px;
+	text-decoration: none;
+	font-size: 12px;
+	font: sans-serif;
+	font-weight: bold;
+	border: 0px solid #a0a0a0;
+	background-color: rgb(59, 89, 152);
+/* 	height: 22px; */
+	border-radius: 3px; 
+	vertical-align: middle;
+}
+
+.horBorder {	
+	border-bottom: 1px solid #EEE0E5;
+}
+
+.title-fsize { font-size: 14px;}
+.mrgin-left { margin-left: 20px;}
+
+.AbsoultePanel-Margin {
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+/**********   		popup styles   *************          */
+
+
+.link-label {
+	text-decoration: underline;
+	cursor: pointer;
+	font: Tahome;
+	font-size: 12px;
+	color: darkblue;
+	border-right: none;
+	border-left: none;	
+}
+
+.link-label:hover {
+	text-decoration: none;
+}
+
+.paginate-label {
+	font: Tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+	align: right;
+}
+
+.lbl-mandatory {
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.delete-label{
+	margin: 0;
+	color: rgb(255, 255, 255);
+	padding: 3px 0px 3px 3px;
+	text-decoration: none;
+	font-size: 12px;
+	font: sans-serif;
+	font-weight: bold;
+	border: 0px solid #a0a0a0;
+	background-color: rgb(59, 89, 152);
+/* 	height: 22px; */
+	border-radius: 3px; 
+	vertical-align: middle;
+}
+
+.searchButton {
+	width: 80px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 3px 8px;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 11px;
+	font: Tahome;
+	cursor: pointer;
+	cursor: hand;
+	border: 1px solid #a0a0a0;
+	background-color: #f1f1f1;
+	height: 25px;
+	border-radius: 3px;
+}
+
+.searchButton:hover {	
+	background-color: #468ccf;
+}
+
+.mainButton {
+	width: 70px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 3px 8px;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 12px;
+	font: Tahome;
+	font-weight: bold;
+	cursor: pointer;
+	cursor: hand;
+	border: 1px solid #a0a0a0;
+	background-color: #f1f1f1;
+	height: 22px;
+	border-radius: 3px;
+}
+
+.mainButton:active {
+	cursor: default;
+	color: #888;
+}
+
+.mainButton:hover {	
+	background-color: #468ccf;
+}
+
+.mainTxtbox {
+	height: 18px;
+	width: 200px;
+	font-size: 12px;
+	font-weight :bold;
+	font-family: sans-serif;
+	vertical-align: middle;
+	color : #1b2e8f;
+}
+
+.ActivityTxtbox {
+	height: 18px;
+	width: 200px;
+	font-size: 12px;
+	font-family: sans-serif;
+	vertical-align: middle;
+}
+
+.ActivityTxtbox:focus {
+	/* -moz-box-shadow: 0 0 2px 0 #000;
+	-webkit-box-shadow: 0 0 2px 0 #000; */
+	box-shadow: 0 0 2px 0 #000;
+}
+
+.search-suggestbox {
+	padding: 2px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.delete-Button {
+	width: 70px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 3px 8px;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 12px;
+	font: Tahome;
+	font-weight: bold;
+	cursor: pointer;
+	cursor: hand;
+	border: 1px solid #a0a0a0;
+	background-color: #f1f1f1;
+	height: 22px;
+	border-radius: 3px;
+}
+
+.closeImgButton{
+	width:25px;
+	height: 25px;
+	cursor:pointer;
+	
+}
+
+.cursor-pointer {
+	cursor: pointer;
+	height : 22px;
+}
+
+

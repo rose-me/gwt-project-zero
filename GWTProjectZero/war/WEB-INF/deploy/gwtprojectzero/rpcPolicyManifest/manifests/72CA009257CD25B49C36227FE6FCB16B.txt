@@ -1,0 +1,2 @@
+serviceClass: com.mtk.practice.client.service.ServiceController
+path: 6785F11D13141C1ABA16C522FEE29DD8.gwt.rpc
